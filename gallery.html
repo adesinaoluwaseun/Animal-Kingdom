@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Blog</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="description" content="website for my blog">
+        <meta name="keywords" content="web-development">
+        <meta name="author" content="StephenGMA">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,700" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js/jquery.scrollme.js/jquery.scrollme.js"></script>
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+<body>
+        <div  class="gallerybody">
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-md fixed-top bg-light navbar-light" id="topnav">
+        <a class="navbar-brand active" href="index.html">ANIMAL WORLD</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"></button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="nav navbar-nav" id="menu">
+            <li class="nav-item">
+                <a class="nav-link " href="index.html">Home</a> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="animals.html">Animal</a> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="gallery.html">Gallery</a> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contacts</a> 
+            </li>
+        </ul>
+    </div>
+    <input class="search" type="text" placeholder="Search. . .">
+    </nav>
+  <!-- HEADER-->
+
+  <section class="section-gallery pt-1" id="gallery">
+                <div class="gallery-container text-center pt-4">
+                    <div class="row m-auto border-top-0 border-right-0 border-left-0 border-primary" id="gallery"></div>
+    <div class="jumbotron" style="color:green" id="jumbo">
+    
+    <h1>Photo Gallery </h1>
+    
+    <p>Pictures of most common animals in the world</p>
+    
+    </div>
+
+
+    <div class="row m-auto justify-content-center  border-top-0 border-right-0 border-left-0 border-primary pb-3 mt-1">
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/lion/">
+            <img src="img/gallery/African_lion.jpg" width="200" height="200">
+            <div class="desc col-lg-auto">LION: Read more </div>
+                        </a>
+                </div>
+        </div>
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/snake/">
+            <img src="img/gallery/snk.jpg" alt="" width="200" height="200"></div>
+            <div class="desc col-lg-auto">SNAKE: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/tiger/">
+            <img src="img/gallery/tiger.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">TIGER: Read more </div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/monkey/">
+            <img src="img/gallery/Cute_Little_Monkey_Background-747.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">MONKEY: Read more</div>
+                        </a>
+        </div>    
+
+        
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="img/gallery/6712c87ab720a8e8db286c8016225d71-min.jpg">
+                                <img src="img/gallery/bird.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">BIRD: Read more </div>
+        </a>
+</div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/hyena/">
+            <img src="img/gallery/hyne.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">HYENA: Read more </div>
+        </a>
+</div>
+
+<div class="col-auto" id="rows">
+        <div class="thumbnail">
+                <a target="_blank" href="img/gallery/African_lion.jpg">
+                        <img src="img/gallery/crock.jpg" width="200" height="200"></div>
+                        <div class="desc">CROCKODILE: Read more</div>
+                </a>
+        </div>
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/elephant/">
+            <img src="img/gallery/elep.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">ELEPHANT: Read more</div>
+        </a>
+</div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/rabbit/">
+                                <img src="img/gallery/rabb.jpg" alt="" width="200" height="200"></div>
+                                <div class="desc">RABBIT: Read more</div>
+                        </a>
+                </div>
+                                <div class="col-auto" id="rows">
+                                        <div class="thumbnail">
+                                                <a target="_blank" href="https://a-z-animals.com/animals/gorilla/">
+                                    <img src="img/gallery/gorilla.jpg" alt="" width="200" height="200"></div>
+                                    <div class="desc">GORILLA: Read more</div>
+                                                </a>
+                                </div>   
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/horse/">
+            <img src="img/gallery/horse.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">HORSE: Read more </div>
+                        </a>
+        </div>    
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/dog/">
+            <img src="img/gallery/dog.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">DOG: Read more </div>
+                        </a>
+        </div>   
+        
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/fox/">
+            <img src="img/gallery/fox.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">FOX: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/fish/">
+            <img src="img/gallery/fish.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">FISH: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/jaguar/">
+            <img src="img/gallery/jag.jpg" width="200" height="200"></div>
+            <div class="desc">JAGUAR: Read more</div>
+                        </a>
+        </div>
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/snail/">
+            <img src="img/gallery/snail.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">SNAIL: Read more </div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/weasel/">
+            <img src="img/gallery/weasel.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">WEASEL: Read more </div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/cat/">
+            <img src="img/gallery/cat.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">CAT: Read more</div>
+                        </a>
+        </div>    
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/kangaroo/">
+            <img src="img/gallery/kang.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">KANGAROO: Read more </div>
+                        </a>
+        </div>   
+        
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/impala/">
+            <img src="img/gallery/imp.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">IMPALA: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/newt/">
+            <img src="img/gallery/newt.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">NEWT: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/tortoise/">
+            <img src="img/gallery/tort.jpg" width="200" height="200"></div>
+            <div class="desc">TORTOISE: Read more </div>
+                        </a>
+        </div>
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/wolf/">
+            <img src="img/gallery/wolf.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">WOLF: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/swan/">
+            <img src="img/gallery/swan.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">SWAN: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/scorpion/">
+            <img src="img/gallery/scorp.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">SCORPION: Read more</div>
+                        </a>
+        </div>    
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/squirrel/">
+            <img src="img/gallery/squrl.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">SQUIRREL: Read more</div>
+                        </a>
+        </div>   
+        
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/pug/">
+            <img src="img/gallery/pug.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">PUG: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/giraffe/">
+            <img src="img/gallery/girff.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">GIRAFFE: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/lizard/">
+            <img src="img/gallery/lizz.jpg" width="200" height="200"></div>
+            <div class="desc">LIZARD: Read more</div>
+                        </a>
+        </div>
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/pig/">
+            <img src="img/gallery/pig.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">PIG: Read more </div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/rat/">
+            <img src="img/gallery/rat.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">RAT: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/guinea-fowl/">
+            <img src="img/gallery/gfowl.jpg" alt=" "  width="200" height="200"></div>
+            <div class="desc">GUINEA-FOWL: Read more</div>
+                        </a>
+        </div>    
+
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/seal/">
+            <img src="img/gallery/seal6.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">SEAL: Read more</div>
+                        </a>
+        </div>   
+        
+        <div class="col-auto" id="rows">
+                <div class="thumbnail">
+                        <a target="_blank" href="https://a-z-animals.com/animals/goat/.jpg">
+            <img src="img/gallery/goat.jpg" alt="" width="200" height="200"></div>
+            <div class="desc">GOAT: Read more</div>
+                        </a>
+        </div>
+
+        <div class="col-auto" id="rows">
+                        <div class="thumbnail">
+                                <a target="_blank" href="img/gallery/https://a-z-animals.com/animals/zebra/.jpg">
+                    <img src="img/gallery/zebra.jpg" alt="" width="200" height="200"></div>
+                    <div class="desc">ZEBRA: Read more </div>
+                                </a>
+                </div>
+
+
+        </div>    
+        
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <hr>
+            <div class="clearfix">
+              <span class="float-left">  &copy stephenGMA01</span>
+                <span class="float-right"><a class="text-info pr-4" href="https://www.facebook.com/seun.timileyin"><i class="fab fa-facebook-f fa-2x "></i></a>
+                <a  href="http://www.twitter.com/stephenGMA01"><i class="fab fa-twitter fa-2x"></i></a>
+            </span>
+        </div>
+        </div>
+        
+    </footer>
+</div>
+    <script src="javascript/script.js"></script>
+
+</body>
+</html>
